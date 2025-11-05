@@ -3,8 +3,8 @@ title: People
 permalink: /people/
 ---
 
-{% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|intern|others|alumni" | split: "|" %}
+{% assign people_sorted = site.people %}
+{% assign role_array = "pi|postdoc|gradstudent|masterstudent|intern|others|alumni" | split: "|" %}
 
 {% for role in role_array %}
 
@@ -19,13 +19,13 @@ permalink: /people/
 {% if role == 'postdoc' %}
 <h3>Postdoctoral Fellows</h3>
  {% elsif role == 'pi' %}
-<h3>Principal Investigator</h3>
+<h3>Principal Investigators</h3>
  {% elsif role == 'gradstudent' %}
-<h3>Graduate Students</h3>
- {% elsif role == 'researchstaff' %}
-<h3>Research Staff</h3>
+<h3>Graduate/HDR Students</h3>
+ {% elsif role == 'masterstudent' %}
+<h3>Master Students</h3>
  {% elsif role == 'intern' %}
-<h3>Research Intern</h3>
+<h3>Research Interns</h3>
  {% elsif role == 'others' %}
 <h3>Honorary Members</h3>
  {% elsif role == 'alumni' %}
@@ -33,7 +33,7 @@ permalink: /people/
 {% endif %}
 </div>
 
-{% if role != 'alumni' %}
+{% if role == 'pi' %}
 <div class="content list people">
   {% for profile in people_sorted %}
     {% if profile.position contains role %}
@@ -51,8 +51,24 @@ permalink: /people/
   {% endfor %}
 </div>
 <hr>
-
 {% else %}
+<div class="content list people">
+  {% for profile in people_sorted %}
+    {% if profile.position contains role %}
+      <div class="list-item-people">
+        <p class="list-post-title">
+          {% if profile.avatar %}
+            <a href="{{ profile.linkedin }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+          {% else %}
+            <a href="{{ profile.linkedin }}"><img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg"></a>
+          {% endif %}
+          <a class="name" href="{{ profile.linkedin }}">{{ profile.name }}</a>
+        </p>
+      </div>    
+    {% endif %}
+  {% endfor %}
+</div>
+
 
 <br>
 

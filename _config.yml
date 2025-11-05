@@ -1,7 +1,7 @@
 # Basic
 name:               "CySoc Lab"
 title:              "CySoc Lab"
-description:        "The CySoc Lab is a cybercrime and social computing research group run by Dr. Hridoy Sankar Dutta."
+description:        "The CySoc Lab is a research group run by Dr. Hridoy Sankar Dutta and Dr. Swati Kumari at Deakin University, GIFT city campus, India."
 
 
 # URL
@@ -20,12 +20,12 @@ highlighter:        rouge
 nav:
   - name:           "home"
     href:           "/"
-  - name:           "about"
-    href:           "/about"
-  - name:           "publications"
-    href:           "/publication"
   - name:           "people"
     href:           "/people"
+  - name:           "publications"
+    href:           "/publication"
+  - name:           "funding"
+    href:           "/funding"
   - name:           "tools"
     href:           "/tools"
 

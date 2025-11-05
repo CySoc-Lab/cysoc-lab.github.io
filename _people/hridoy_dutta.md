@@ -1,8 +1,8 @@
 ---
-name: Hridoy Sankar Dutta
+name: Dr. Hridoy Sankar Dutta
 position: pi
 avatar: hridoy_dutta.jpg
-twitter: hridaydutta123
+linkedin: https://www.linkedin.com/in/hridoy-sankar-dutta-18448a63/?ppe=1
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
