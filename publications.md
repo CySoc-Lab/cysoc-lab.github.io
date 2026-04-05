@@ -28,14 +28,27 @@ hr {
 ## Publications
 <br>
 
+#### GONets: A First-Look Into GitHub Organisation Networks  
+Hridoy Sankar Dutta, Biswadeep Khan and Amit Nanavati  
+*<span class="label label-conference">SIGIR'26</span> 49th International ACM SIGIR Conference on Research and Development in Information Retrieval*, July 20–24, 2026  
 
+---
+#### Rethinking Targeted Data Poisoning in Voice Authentication: A Critique and Defense Mechanism  
+Kamel Kamel, Keshav Sood, Hridoy Sankar Dutta and Sunil Aryal  
+*<span class="label label-conference">IEEE IoT</span> IEEE Internet of Things Journal*  
+
+---
+#### iOSZoo: A Large-Scale Study of Third-Party iOS App Markets  
+Luis Adán Saavedra del Toro, Hridoy Sankar Dutta, Alastair Beresford and Alice Hutchings  
+*<span class="label label-conference">WiSec'26</span> ACM Conference on Security and Privacy in Wireless and Mobile Networks, Saarbrücken, Germany*, June 30–July 3, 2026  
+
+---
 #### [Next-Gen IoT Security using Polar Codes-based Cryptography for malware defence through quantum self-attention neural network](https://www.sciencedirect.com/science/article/pii/S0950705125007622)  
 Swati Kumari
 
 *<span class="label label-conference">KBS</span> Elsevier Knowledge-Based Systems*, 321, 113716
 
 ---
-
 #### [Securing User Identity in Web3 Social Platforms: A Post-Quantum Biometric Approach](https://siotec.netsons.org/2025/index.html)  
 Swati Kumari, Hridoy Sankar Dutta and Hitesh Tiwari  
 *<span class="label label-conference">SIoTEC@CIKM'25</span> 6th Workshop on Secure IoT, Edge and Cloud systems, The 34th ACM International Conference on Information and Knowledge Management , Seoul, Korea*, November 10–15, 2025  
